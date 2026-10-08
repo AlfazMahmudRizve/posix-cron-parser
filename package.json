@@ -1,0 +1,45 @@
+{
+  "name": "posix-cron-parser",
+  "version": "1.0.0",
+  "description": "Zero-dependency, high-precision POSIX-compliant 5-field cron expression parser, English humanizer, and execution scheduler.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "test": "npx vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlfazMahmudRizve/posix-cron-parser.git"
+  },
+  "keywords": [
+    "cron",
+    "crontab",
+    "posix",
+    "cron-parser",
+    "cron-expression",
+    "scheduler",
+    "cron-validator",
+    "cron-humanizer",
+    "fasttools"
+  ],
+  "author": "Alfaz Mahmud Rizve <a.m.rizve3905@gmail.com> (https://whoisalfaz.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlfazMahmudRizve/posix-cron-parser/issues"
+  },
+  "homepage": "https://fasttools.me/crontab-generator#readme"
+}
